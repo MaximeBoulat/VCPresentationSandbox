@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4200AF1EA031AD00F729AD /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4200AE1EA031AD00F729AD /* UIViewController+Extensions.swift */; };
 		6A67B0AD1E0BBA840024E9AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0AC1E0BBA840024E9AB /* AppDelegate.swift */; };
 		6A67B0AF1E0BBA840024E9AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0AE1E0BBA840024E9AB /* ViewController.swift */; };
 		6A67B0B21E0BBA840024E9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A67B0B01E0BBA840024E9AB /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		6A67B0B71E0BBA840024E9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A67B0B51E0BBA840024E9AB /* LaunchScreen.storyboard */; };
 		6A67B0C21E0BBA840024E9AB /* SeamgenDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0C11E0BBA840024E9AB /* SeamgenDemoTests.swift */; };
 		6A67B0CD1E0BBA840024E9AB /* SeamgenDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0CC1E0BBA840024E9AB /* SeamgenDemoUITests.swift */; };
+		6A67B0DB1E0BBABD0024E9AB /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0DA1E0BBABD0024E9AB /* MasterTableViewController.swift */; };
+		6A67B0DD1E0BBB8E0024E9AB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67B0DC1E0BBB8E0024E9AB /* CustomCell.swift */; };
+		6AAA02471EA0218100EFDB6A /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAA02461EA0218100EFDB6A /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A4200AE1EA031AD00F729AD /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		6A67B0A91E0BBA830024E9AB /* SeamgenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamgenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A67B0AC1E0BBA840024E9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A67B0AE1E0BBA840024E9AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		6A67B0C81E0BBA840024E9AB /* SeamgenDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamgenDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A67B0CC1E0BBA840024E9AB /* SeamgenDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamgenDemoUITests.swift; sourceTree = "<group>"; };
 		6A67B0CE1E0BBA840024E9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A67B0DA1E0BBABD0024E9AB /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		6A67B0DC1E0BBB8E0024E9AB /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6AAA02461EA0218100EFDB6A /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				6A67B0AC1E0BBA840024E9AB /* AppDelegate.swift */,
 				6A67B0AE1E0BBA840024E9AB /* ViewController.swift */,
+				6A67B0DA1E0BBABD0024E9AB /* MasterTableViewController.swift */,
+				6AAA02461EA0218100EFDB6A /* BlueViewController.swift */,
+				6A67B0DC1E0BBB8E0024E9AB /* CustomCell.swift */,
+				6A4200AE1EA031AD00F729AD /* UIViewController+Extensions.swift */,
 				6A67B0B01E0BBA840024E9AB /* Main.storyboard */,
 				6A67B0B31E0BBA840024E9AB /* Assets.xcassets */,
 				6A67B0B51E0BBA840024E9AB /* LaunchScreen.storyboard */,
@@ -260,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A67B0AF1E0BBA840024E9AB /* ViewController.swift in Sources */,
+				6A67B0DB1E0BBABD0024E9AB /* MasterTableViewController.swift in Sources */,
+				6A67B0DD1E0BBB8E0024E9AB /* CustomCell.swift in Sources */,
+				6AAA02471EA0218100EFDB6A /* BlueViewController.swift in Sources */,
+				6A4200AF1EA031AD00F729AD /* UIViewController+Extensions.swift in Sources */,
 				6A67B0AD1E0BBA840024E9AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				6A67B0D31E0BBA840024E9AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A67B0D41E0BBA840024E9AB /* Build configuration list for PBXNativeTarget "SeamgenDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				6A67B0D61E0BBA840024E9AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A67B0D71E0BBA840024E9AB /* Build configuration list for PBXNativeTarget "SeamgenDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				6A67B0D91E0BBA840024E9AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
